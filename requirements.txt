@@ -1,0 +1,33 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+
+# OpenAI integration
+langchain-openai
+openai
+
+# Anthropic (Claude) integration
+langchain-anthropic
+# anthropic
+
+# Google Gemini / PaLM integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face integration
+langchain-huggingface
+huggingface_hub
+transformers
+
+# Env variable management
+python-dotenv
+# ML / numerical libraries
+numpy
+scikit-learn
+
+# vertex ai for Embedding models in google
+langchain-google-vertexai
+
+# Python validation library
+pydantic

@@ -1,0 +1,50 @@
+{
+    "title": "Review",
+    "description": "A review of a MOTO mobile G67",
+    "type": "object",
+    "properties": {
+        "key_themes": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "List down all Key themes user added in there review"
+        },
+        "summary": {
+            "type": "string",
+            "description": "A brief summary of the user's information"
+        },
+        "age": {
+            "type": ["integer", "null"],
+            "description": "The user's age"
+        },
+        "email": {
+            "type": ["string", "null"],
+            "description": "The user's email address"
+        },
+        "sentiment": {
+            "type": ["string", "null"],
+            "enum": ["positive", "negative"],
+            "description": "Indicates the user's sentiment"
+        },
+        "pros": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "A list of positive attributes"
+        },
+        "cons": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "A list of the user's negative attributes"
+        },
+        "name": {
+            "type": ["string", "null"],
+            "description": "The reviewer's name"
+        }
+    },
+    "required": ["key_themes", "summary", "sentiment", "pros", "cons"]
+}

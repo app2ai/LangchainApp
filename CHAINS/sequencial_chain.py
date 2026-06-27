@@ -3,8 +3,6 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
 from dotenv import load_dotenv
 
-# Task -> Get TOPIC from user then create 3 ha
-
 load_dotenv()
 
 llm = HuggingFaceEndpoint(

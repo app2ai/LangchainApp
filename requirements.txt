@@ -31,3 +31,6 @@ langchain-google-vertexai
 
 # Python validation library
 pydantic
+
+# graph
+grandalf

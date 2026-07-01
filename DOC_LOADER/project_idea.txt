@@ -1,0 +1,2 @@
+# IDEA or project -> create a chrome plugin to which read/load webpage content and user can ask anything about 
+# the content given in the webpage. The plugin will use a language model to answer questions based on the content of the webpage.
